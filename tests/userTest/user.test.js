@@ -6,6 +6,6 @@ describe('Pruebas de la función sumar', () => {
   });
 
   test('Debe retornar 0 cuando sumamos -1 y 1', () => {
-    expect(sumar(-1, 1)).toBe(10);
+    expect(sumar(-1, 1)).toBe(0);
   });
 });
